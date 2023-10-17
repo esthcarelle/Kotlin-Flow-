@@ -17,6 +17,3 @@ local.properties
 
 # Project exclude paths
 /.github/
-/app/
-/assets/
-/gradle/
