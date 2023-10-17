@@ -60,7 +60,7 @@ class SearchActivity : AppCompatActivity(), CoroutineScope {
      */
     private fun dataFromNetwork(query: String): Flow<String> {
         return flow {
-            delay(2000)
+            delay(6000)
             emit(query)
         }
     }

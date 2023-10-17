@@ -39,7 +39,7 @@ class LongRunningTaskViewModel(
         return flow {
             // your code for doing a long running task
             // Added delay to simulate
-            delay(10000)
+            delay(8000)
             emit(0)
         }
     }
