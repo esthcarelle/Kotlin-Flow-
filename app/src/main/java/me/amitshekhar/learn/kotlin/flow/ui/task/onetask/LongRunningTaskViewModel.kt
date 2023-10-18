@@ -11,8 +11,6 @@ import me.amitshekhar.learn.kotlin.flow.utils.DispatcherProvider
 import me.amitshekhar.learn.kotlin.flow.ui.base.UiState
 
 class LongRunningTaskViewModel(
-    private val apiHelper: ApiHelper,
-    private val dbHelper: DatabaseHelper,
     val dispatcherProvider: DispatcherProvider
 ) : ViewModel() {
 

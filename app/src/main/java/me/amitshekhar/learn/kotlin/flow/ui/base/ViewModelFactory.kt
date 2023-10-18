@@ -49,7 +49,7 @@ class ViewModelFactory(
             return EmitAllViewModel(apiHelper, dbHelper, dispatcherProvider) as T
         }
         if (modelClass.isAssignableFrom(LongRunningTaskViewModel::class.java)) {
-            return LongRunningTaskViewModel(apiHelper, dbHelper, dispatcherProvider) as T
+            return LongRunningTaskViewModel(dispatcherProvider) as T
         }
         if (modelClass.isAssignableFrom(TwoLongRunningTasksViewModel::class.java)) {
             return TwoLongRunningTasksViewModel(apiHelper, dbHelper, dispatcherProvider) as T
